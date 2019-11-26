@@ -8,4 +8,4 @@ set -x
 set -o pipefail
 
 # build json, convert to yaml and create a common file for all documents.
-jsonnet -J grafonnet "${1}"
+jsonnet -J grafonnet -o td.json "${1}"
