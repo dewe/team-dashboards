@@ -1,0 +1,5 @@
+configMapGenerator:
+  - name: team-dashboard
+    behavior: create
+    files:
+      - td.json
