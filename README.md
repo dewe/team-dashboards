@@ -1,2 +1,7 @@
 # team-dashboards
-Grafana lab
+
+Grafana labs
+
+```bash
+make build
+```
